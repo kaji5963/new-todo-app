@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 export const App = () => {
+  //useState宣言
   const [todo, setTodo] = useState("");
   const [makeTodo, setMakeTodo] = useState([]);
   //フォームの送信処理をして初期化
